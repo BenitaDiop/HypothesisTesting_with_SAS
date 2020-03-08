@@ -4,7 +4,7 @@ Hypothesis testing in the context of multivariate data is more complex then in o
 
 ************
 
-![](file:///home/benita/Desktop/Homework/Screenshot%20from%202020-02-20%2018-22-01.html)
+![](file:///home/benita/Desktop/Homework/Screenshot%20from%202020-02-20%2018-22-01.webp)
 
 
 
