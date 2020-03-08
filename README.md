@@ -6,7 +6,7 @@ Hypothesis testing in the context of multivariate data is more complex then in o
 <br/>
 <br/>
 
-<img src"https://user-images.githubusercontent.com/45861503/76169512-34315d00-6136-11ea-972f-e70798fcaa99.png" align="center">
+<img src="https://user-images.githubusercontent.com/45861503/76169512-34315d00-6136-11ea-972f-e70798fcaa99.png" align="center">
 
 ![image](https://user-images.githubusercontent.com/45861503/76169457-84f48600-6135-11ea-907b-03c792809c0f.png)
 
