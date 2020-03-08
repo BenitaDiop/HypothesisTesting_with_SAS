@@ -171,17 +171,17 @@ RUN;
 **********************************
 ***************************
 
-
+![image](https://user-images.githubusercontent.com/45861503/76169778-da7e6200-6138-11ea-8c2a-7bed2a23dc15.png)
 
 DataTable             |  Stastistics
 :-------------------------:|:-------------------------:
 ![image](https://user-images.githubusercontent.com/45861503/76169736-78256180-6138-11ea-8f32-5ca43dd9754f.png)|![image](https://user-images.githubusercontent.com/45861503/76169753-968b5d00-6138-11ea-9381-729378b0f351.png)
 
-```SAS
+```python
 DM "output;clear;log;clear";
 Options pagesize=45 linesize=80 PageNo=1 NoDate;
 OPTIONS FORMCHAR="|----|+|---+=|-/\<>*"; 
-Title1 "Homework Question 5.22";
+Title1 "Cancer Data";
 ODS HTML body=    "ta5_1-body.html" 
          contents="ta5_1-contents.html" 
          frame=   "ta5_1-frame.html" 
