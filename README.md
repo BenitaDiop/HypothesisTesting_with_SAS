@@ -53,12 +53,10 @@ Proc IML;
 run;
 ```
 
+                                   | Simulated Dataset SAS Output|
+:---------------------------------:|:----------------------------:|:------------------------------|				   
+![]()![image](https://user-images.githubusercontent.com/45861503/76158421-7c1a9a80-60ca-11ea-88ef-701b4e9a4f63.png)![]()
 
-
-
-DATA TABLE        |    SAS SUMMARY OUTPUT
-:-----------------------:|:--------------------------:
-![image](https://user-images.githubusercontent.com/45861503/76158013-001e5380-60c6-11ea-8fbb-6ac8f12a7b6a.png)|![image](https://user-images.githubusercontent.com/45861503/76158081-c0a43700-60c6-11ea-9e09-866a0caa2701.png)
 
 
 
@@ -96,6 +94,10 @@ $$T^2 = n (\bar{y} - mu_0)'S^-1(\bar{y}-mu_0)$$
 **********
 **********
 
+
+DATA TABLE        |    SAS SUMMARY OUTPUT
+:-----------------------:|:--------------------------:
+![image](https://user-images.githubusercontent.com/45861503/76158013-001e5380-60c6-11ea-8fbb-6ac8f12a7b6a.png)|![image](https://user-images.githubusercontent.com/45861503/76158081-c0a43700-60c6-11ea-9e09-866a0caa2701.png)
 
 
 
