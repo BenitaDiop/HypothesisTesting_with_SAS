@@ -18,7 +18,7 @@ Hypothesis testing in the context of multivariate data is more complex then in o
 DM "output;clear;log;clear";
 Options pagesize=45 linesize=80 PageNo=1 NoDate;
 OPTIONS FORMCHAR="|----|+|---+=|-/\<>*"; 
-Title1 "Homework Question 5.11";
+Title1 "Sample Mean Vector";
 ODS HTML body=    "ta5_1-body.html" 
          contents="ta5_1-contents.html" 
          frame=   "ta5_1-frame.html" 
