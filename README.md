@@ -6,5 +6,3 @@ Hypothesis testing in the context of multivariate data is more complex then in o
 
 
 
-
-
