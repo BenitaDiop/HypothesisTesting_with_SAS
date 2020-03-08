@@ -3,7 +3,7 @@
 Hypothesis testing in the context of multivariate data is more complex then in ordinary univariate case. The number of parameters may be staggering and in statistics is vital to be able to make solid inference about a population, to test our inference we use a method know as hypothesis testing. In hypothesis testing, we use our sample statisitcs to support or discredit a prior hypothesis, or speculation, about the true value of the population parameter.  
 
 ************
-<img align="left" width="100" height="100" src="https://user-images.githubusercontent.com/45861503/76158013-001e5380-60c6-11ea-8fbb-6ac8f12a7b6a.png">
+<img align="center" width="400" height="900" src="https://user-images.githubusercontent.com/45861503/76158013-001e5380-60c6-11ea-8fbb-6ac8f12a7b6a.png">
 
 
 ![image](https://user-images.githubusercontent.com/45861503/76158013-001e5380-60c6-11ea-8fbb-6ac8f12a7b6a.png)
