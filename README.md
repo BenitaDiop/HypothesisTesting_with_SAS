@@ -172,6 +172,11 @@ RUN;
 ***************************
 
 
+
+DataTable             |  Stastistics
+:-------------------------:|:-------------------------:
+![image](https://user-images.githubusercontent.com/45861503/76169736-78256180-6138-11ea-8f32-5ca43dd9754f.png)|![image](https://user-images.githubusercontent.com/45861503/76169753-968b5d00-6138-11ea-9381-729378b0f351.png)
+
 ```SAS
 DM "output;clear;log;clear";
 Options pagesize=45 linesize=80 PageNo=1 NoDate;
