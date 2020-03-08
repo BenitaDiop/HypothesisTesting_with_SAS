@@ -8,7 +8,7 @@ Hypothesis testing in the context of multivariate data is more complex then in o
 <br/>
 <br/>
 
-```math
+<img src="https://render.githubusercontent.com/render/math?math=
 
 $$\mathbf{Y} = \left[\begin{array}
 {rrr}
@@ -18,8 +18,7 @@ $$\mathbf{Y} = \left[\begin{array}
 10 & 9 
 \end{array}\right] $$ 
 
-$$ \text{Test } H_0: \mu'= (6,11)$$
-```
+$$ \text{Test } H_0: \mu'= (6,11)$$>
 
 With this sample data of population mean vectors, we tasked with the question "Wheter or not our sample mean vector equate to the true population mean?". In order to answer this question we need to measure the distance between our true population mean and our averaged vector means. Then we must determined if the distance between the sample mean and the population mean is far. Now the quest becomes, how far is far? In order to determine this we perform a hypothesis test. Our null hypothesis is that there is no statistical significance between our averaged mean vector and our population mean. Alternatievly we pose an alternative hypothesis that claims that there is indeed atleast one statistically significant relationship between the averaged mean vector and our true population mean. 
 
