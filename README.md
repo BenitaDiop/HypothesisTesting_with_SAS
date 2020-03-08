@@ -53,10 +53,7 @@ Proc IML;
 run;
 ```
 
-                  Simulated        | Simulated Dataset            |          SAS Output
-:---------------------------------:|:----------------------------:|:------------------------------|				   
-![image](https://user-images.githubusercontent.com/45861503/76158480-095def00-60cb-11ea-9961-54ad71fa8317.png)![image](https://user-images.githubusercontent.com/45861503/76158421-7c1a9a80-60ca-11ea-88ef-701b4e9a4f63.png)![image](https://user-images.githubusercontent.com/45861503/76158480-095def00-60cb-11ea-9961-54ad71fa8317.png)
-
+ ![image](https://user-images.githubusercontent.com/45861503/76158421-7c1a9a80-60ca-11ea-88ef-701b4e9a4f63.png)
 
 
 
