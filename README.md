@@ -8,7 +8,7 @@ Hypothesis testing in the context of multivariate data is more complex then in o
 <br/>
 <br/>
 
-
+```math
 
 $$\mathbf{Y} = \left[\begin{array}
 {rrr}
@@ -19,12 +19,20 @@ $$\mathbf{Y} = \left[\begin{array}
 \end{array}\right] $$ 
 
 $$ \text{Test } H_0: \mu'= (6,11)$$
+```
 
 With this sample data of population mean vectors, we tasked with the question "Wheter or not our sample mean vector equate to the true population mean?". In order to answer this question we need to measure the distance between our true population mean and our averaged vector means. Then we must determined if the distance between the sample mean and the population mean is far. Now the quest becomes, how far is far? In order to determine this we perform a hypothesis test. Our null hypothesis is that there is no statistical significance between our averaged mean vector and our population mean. Alternatievly we pose an alternative hypothesis that claims that there is indeed atleast one statistically significant relationship between the averaged mean vector and our true population mean. 
+
+```math
 $$ H_0:  \mu' = (6,11) $$
 $$ H_1: \mu'  ≠ (6,11) $$
+```
+
 The hypothesis testing tool that we will use to test if there is a statistical signifiance is the Hottelings $\ T^2 \text{-test}$ which measures if the distance is statistically significant and comes from a hottelings $\ T^2$ distribution with degrees of freedom equal to (n-1). If our sample mean vectors proves to not be far from the population mean then we will accept the null hypothesis. Given the case that $\ T^2 \ge T^2_{a,p,n-1}$, we will then reject our null hypothesis because its greater than or equal to our t-criticial value. 
+
+```math
 $$T^2 = n (\bar{y} - mu_0)'S^-1(\bar{y}-mu_0)$$
+```
 
 **According to our SAS computation found below. We accept the null hypothesis becasue our $\ T^2 \text{ value of 0.61}$ is smaller than our t-critical value of $\ T^2_{0.05,2,4} = 25.472$. Which concludes that our sample mean vector is an unbiased estimator of our population mean vector. Thus implying that the computed difference between the sample mean vector is not statisitcally significant.** 
 
