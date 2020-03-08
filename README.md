@@ -6,10 +6,11 @@ Hypothesis testing in the context of multivariate data is more complex then in o
 <br/>
 <br/>
 
-
-![image](https://user-images.githubusercontent.com/45861503/76169571-bf125780-6136-11ea-8ed3-e66ce9c1b5f3.png)
-
 ![image](https://user-images.githubusercontent.com/45861503/76169457-84f48600-6135-11ea-907b-03c792809c0f.png)
+
+<img src="https://user-images.githubusercontent.com/45861503/76169571-bf125780-6136-11ea-8ed3-e66ce9c1b5f3.png" align="left")
+
+
 
 ```SAS
 DM "output;clear;log;clear";
