@@ -4,6 +4,11 @@ Hypothesis testing in the context of multivariate data is more complex then in o
 
 ************
 
-![image](https://user-images.githubusercontent.com/45861503/76158013-001e5380-60c6-11ea-8fbb-6ac8f12a7b6a.png)
+![image](https://user-images.githubusercontent.com/45861503/76158013-001e5380-60c6-11ea-8fbb-6ac8f12a7b6a.png).center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 
