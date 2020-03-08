@@ -5,6 +5,7 @@ Hypothesis testing in the context of multivariate data is more complex then in o
 ************
 <br/>
 <br/>
+# Sample Mean Vector Hypothesis Testing
 
 ![image](https://user-images.githubusercontent.com/45861503/76169457-84f48600-6135-11ea-907b-03c792809c0f.png)
 
@@ -73,6 +74,8 @@ run;
 
 **********
 **********
+# Species of Beetles Hypothesis Testing
+
 
 ![image](https://user-images.githubusercontent.com/45861503/76169708-30063f00-6138-11ea-8dbb-79d29adcbae0.png)
 
@@ -89,7 +92,7 @@ DM "output;clear;log;clear";
 Options pagesize=45 linesize=80 PageNo=1 NoDate;
 OPTIONS FORMCHAR="|----|+|---+=|-/\<>*"; 
 	*To make your document display correctly without SAS Monospace font;
-Title1 "Homework Question 5.11";
+Title1 "Species of Beetles Analysis";
 ODS HTML body=    "ta5_1-body.html" 
          contents="ta5_1-contents.html" 
          frame=   "ta5_1-frame.html" 
@@ -170,6 +173,8 @@ RUN;
 
 **********************************
 ***************************
+
+# Cancer Bone Data Hypothesis Testing
 
 ![image](https://user-images.githubusercontent.com/45861503/76169778-da7e6200-6138-11ea-8c2a-7bed2a23dc15.png)
 
