@@ -15,10 +15,18 @@ Hypothesis testing in the context of multivariate data is more complex then in o
 
 
 ```SAS
-DM "output;clear;log;clear";
-Options pagesize=45 linesize=80 PageNo=1 NoDate;
-OPTIONS FORMCHAR="|----|+|---+=|-/\<>*"; 
-Title1 "Sample Mean Vector";
+DM 
+"output;clear;log;clear";
+
+Options 
+pagesize=45 linesize=80 PageNo=1 NoDate;
+
+OPTIONS FORMCHAR=
+"|----|+|---+=|-/\<>*"; 
+
+Title1 
+"Sample Mean Vector";
+
 ODS HTML body=    "ta5_1-body.html" 
          contents="ta5_1-contents.html" 
          frame=   "ta5_1-frame.html" 
@@ -28,11 +36,15 @@ ODS HTML body=    "ta5_1-body.html"
 	 </title>"
          anchor="ta5_1";
     title "5.11";
+    
+    
 Data Q5_11;
  Sample+1;
  Input Y1-Y2;
  Label 	Y1="Sample Mean One"
         X2="Sample Mean Two";
+	
+	
 DataLines;
   3  10 
   6  12
@@ -40,9 +52,11 @@ DataLines;
   10  9    
 ;
 
-Proc Print DATA=Q5_11; Id Sample; run;    
+Proc Print DATA=Q5_11; 
+Id Sample; run;    
 
 title "Multivariate Descriptive Statistics";
+
 Proc IML;
         Use Q5_11;
         Read ALL var{Y1 Y2} into Y; 
@@ -58,10 +72,12 @@ Proc IML;
 	*Ho: mu=[6, 11] 
 	Ha: mu ne [6, 11];
         T2=N*(MeanVec-mu0)*invS*(MeanVec-mu0)`; 
-        CriticalF=(((N-1)*P)/(N-P))*FINV(0.9, P, N-P); 
+        CriticalF=
+	(((N-1)*P)/(N-P))*FINV(0.9, P, N-P); 
         F=(N-P)/((N-1)*P)*T2;
         pval=1-ProbF(F,P,(N-P));
         print T2 CriticalF pval;
+	
 run;
 ```
 
@@ -87,18 +103,25 @@ DATA TABLE        |    SAS SUMMARY OUTPUT
 ```SAS
 DM "output;clear;log;clear";
     title "Lubischew 1962";
+    
     DM "output;clear;log;clear";
+    
 Options pagesize=45 linesize=80 PageNo=1 NoDate;
+
 OPTIONS FORMCHAR="|----|+|---+=|-/\<>*"; 
-	*To make your document display correctly without SAS Monospace font;
+
 Title1 "Species of Beetles Analysis";
+
 ODS HTML body=    "ta5_1-body.html" 
          contents="ta5_1-contents.html" 
          frame=   "ta5_1-frame.html" 
          page=    "ta5_1-page.html"
-         headtext="<title>Inference about a Mean Vector</title>"
+         headtext="<title>
+	 Inference about a Mean Vector
+	 </title>"
          anchor="ta5_1";
 	title "5.16";
+	
 Data Beetles;
  flea+1;
  Input y1-y4;
@@ -149,8 +172,11 @@ DataLines;
  197 303 170 205
 ;
 
-Proc Print DATA=Beetles; Id Flea; run;
+Proc Print DATA=Beetles; 
+Id Flea; run;
+
 title "Descriptive Statistics Beetle Data";
+
 PROC IML;
   USE Beetles;
   READ ALL VAR {y1 y2 y3 y4} INTO X;
@@ -182,17 +208,27 @@ DataTable             |  Stastistics
 ![image](https://user-images.githubusercontent.com/45861503/76169736-78256180-6138-11ea-8f32-5ca43dd9754f.png)|![image](https://user-images.githubusercontent.com/45861503/76169753-968b5d00-6138-11ea-9381-729378b0f351.png)
 
 ```SAS
-DM "output;clear;log;clear";
+DM "output;
+clear;
+log;
+clear";
+
 Options pagesize=45 linesize=80 PageNo=1 NoDate;
+
 OPTIONS FORMCHAR="|----|+|---+=|-/\<>*"; 
+
 Title1 "Cancer Data";
+
 ODS HTML body=    "ta5_1-body.html" 
          contents="ta5_1-contents.html" 
          frame=   "ta5_1-frame.html" 
          page=    "ta5_1-page.html"
-         headtext="<title>Bronchous Cancer Treatment Study</title>"
+         headtext="<title>
+	 Bronchous Cancer Treatment Study
+	 </title>"
          anchor="ta5_22";
     title "Cancer";
+    
 Data Cancer;
  Cancer+1;
  Input Y1-Y4;
@@ -200,6 +236,7 @@ Data Cancer;
         Y2="Untreatability_Ascorbate"
         Y3="Admissions_Control"
         Y4="Untreatability_Control";
+	
 DataLines;
      81  74  72 33
     461 423 134 18
@@ -219,8 +256,12 @@ DataLines;
     245 231 188 65 
 ;
 
-Proc Print DATA=Cancer; Id Cancer; run;
+Proc Print DATA=Cancer; 
+Id Cancer;
+run;
+
 title "Descriptive Statistics Cancer Data";
+
 PROC IML;
   USE Cancer;
   READ ALL VAR{y1 y2} INTO X1;
